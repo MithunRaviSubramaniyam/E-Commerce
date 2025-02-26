@@ -2,21 +2,14 @@ import * as S from './style';
 
 const GithubCorner = () => (
   <S.Container
-    href="https://github.com/jeffersonRibeiro/react-shopping-cart"
     aria-label="View source on Github"
   >
     <svg
-      width="80"
       height="80"
-      viewBox="0 0 250 250"
       style={{
         fill: '#151513',
-        color: '#fff',
         position: 'absolute',
-        top: '0',
-        border: '0',
-        left: '0',
-        transform: 'scale(-1, 1)',
+        left: '-300',
       }}
       aria-hidden="true"
     >

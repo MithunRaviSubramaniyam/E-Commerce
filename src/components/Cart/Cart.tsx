@@ -52,16 +52,11 @@ const Cart = () => {
           <S.CartFooter>
             <S.Sub>SUBTOTAL</S.Sub>
             <S.SubPrice>
-              <S.SubPriceValue>{`${total.currencyFormat} ${formatPrice(
-                total.totalPrice,
-                total.currencyId
-              )}`}</S.SubPriceValue>
+              <S.SubPriceValue>{`₹ ${formatPrice(total.totalPrice, total.currencyId)}`}</S.SubPriceValue>
               <S.SubPriceInstallment>
                 {total.installments ? (
                   <span>
-                    {`OR UP TO ${total.installments} x ${
-                      total.currencyFormat
-                    } ${formatPrice(
+                    {`OR UP TO ${total.installments} x ₹ ${formatPrice(
                       total.totalPrice / total.installments,
                       total.currencyId
                     )}`}

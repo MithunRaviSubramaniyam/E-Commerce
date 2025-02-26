@@ -3,9 +3,6 @@ import flag from './nl-flag.png';
 
 export const Container = styled.div`
   box-sizing: border-box;
-  background-color: #fff;
-  border: 2px solid #eee;
-  border-radius: 4px;
   position: fixed;
   display: flex;
   bottom: 10px;
@@ -71,6 +68,5 @@ export const Description = styled.div`
 
   a:link,
   a:visited {
-    color: #000;
   }
 `;
